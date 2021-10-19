@@ -1,0 +1,16 @@
+var users=[];
+document.getElementById("add").onclick=function(){
+    
+  var inputitems=  document.getElementById("items").value;
+  users.push(inputitems);
+  console.log(users);
+  document.getElementById("items").value='';
+}
+   
+
+
+
+
+// var items=["ahmed","ali","hmada"];
+// document.write(items);
+// console.log(items[2]);
